@@ -17,11 +17,11 @@ const Darkmode = () => {
   };
   return (
     <>
-      <div className="relative">
+      <div className="relative transition-all duration-75">
         <div className="absolute top-0 right-0 z-10 cursor-pointer">
           <MdSunny
             onClick={changeTheme}
-            className={`text-xl hover:text-primary text-primary transition-all duration-500 ${
+            className={`text-xl hover:text-primary text-primary transition-all duration-700 ${
               theme === "light" ? "opacity-100" : "opacity-0"
             } `}
           />
@@ -29,7 +29,7 @@ const Darkmode = () => {
         <div>
           <IoMoon
             onClick={changeTheme}
-            className={`text-xl transition-all duration-500 ${
+            className={`text-xl transition-all duration-700 ${
               theme === "dark" ? "opacity-100" : "opacity-0"
             } `}
           />
