@@ -1,16 +1,106 @@
-# React + Vite
+# 🚗 Car Rental React UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive car rental web interface built with React. Users can browse available cars, view details, and explore rental options through a clean and simple UI.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://car-rental-react-ui.vercel.app](https://car-rental-react-ui.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse a list of available rental cars
+- View car details (name, price, specifications, image)
+- Search and filter cars
+- Fully responsive design (mobile, tablet, desktop)
+- Clean, modern, and easy-to-use interface
+- Fast performance and smooth navigation
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **React** – UI library
+- **[Vite / Create React App]** – build tool
+- **[Tailwind CSS / CSS / Bootstrap]** – styling
+- **[React Router]** – page navigation
+- **Vercel** – deployment
+
+## 📁 Project Structure
+
+```
+car-rental-react-ui/
+├── public/          # Static files
+├── src/
+│   ├── components/  # Reusable UI components
+│   ├── pages/       # Page components
+│   ├── assets/      # Images and icons
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+
+```bash
+   git clone https://github.com/Habibullah-Bahar/[your-repo-name].git
+```
+
+2. Go to the project folder
+
+```bash
+   cd [your-repo-name]
+```
+
+3. Install dependencies
+
+```bash
+   npm install
+```
+
+4. Start the development server
+
+```bash
+   npm run dev
+```
+
+5. Open the URL shown in the terminal (usually `http://localhost:5173`)
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+## 🌐 Deployment
+
+This project is deployed on **Vercel**. Every push to the `main` branch automatically triggers a new deployment.
+
+## 📸 Screenshots
+
+<!-- Add your screenshots here -->
+<!-- ![Home Page](./screenshots/home.png) -->
+
+## 🔮 Future Improvements
+
+- User authentication
+- Online booking and payment
+- Admin dashboard for managing cars
+- Backend/API integration
+
+## 👨‍💻 Author
+
+**Habibullah Bahar**
+
+- GitHub: [@Habibullah-Bahar](https://github.com/Habibullah-Bahar)
+
+## 📄 License
+
+This project is licensed under the MIT License.
