@@ -2,7 +2,7 @@
 
 A modern, responsive car rental web interface built with React. Users can browse available cars, view details, and explore rental options through a clean and simple UI.
 
-🔗 **Live Demo:** [https://car-rental-react-ui.vercel.app](https://car-rental-react-ui.vercel.app/)
+🔗 **Live Website:** [https://car-rental-react-ui.vercel.app](https://car-rental-react-ui.vercel.app/)
 
 ---
 
